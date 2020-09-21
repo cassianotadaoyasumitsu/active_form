@@ -7,6 +7,7 @@ class CreateFamilia < ActiveRecord::Migration[6.0]
       t.boolean :mora_junto
       t.boolean :dependente
 
+      t.references :cadastro, null: false, foreign_key: true
 
       t.timestamps
     end

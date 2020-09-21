@@ -31,6 +31,6 @@ class EmpresasController < ApplicationController
   def empresa_params
     params.require(:empresa).permit(
       :tempo_empresa_anos, :tempo_empresa_meses, :nome_empresa, :local_trabalho,
-      :tipo_servico, :colocacao, :empreiteira, :motivo_saida
+      :tipo_servico, :colocacao, :empreiteira, :motivo_saida, :cadastro_id
       )
 end
