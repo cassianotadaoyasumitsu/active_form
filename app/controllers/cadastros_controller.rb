@@ -52,7 +52,7 @@ class CadastrosController < ApplicationController
       :kana_escrita, :hira_leitura, :hira_escrita, :kanji_leitura, :kanji_escrita,
       :carteira_motorista, :carro, :kensa, :kensa_lupa, :microscopio, :montagem,
       :solda, :operador_maquina, :solda_branca, :habilidades_outros, :horas_extras,
-      :feriados, :turnos, :folgas_irregulares, :procedencia, :empresa_id, :familia_id
+      :feriados, :turnos, :folgas_irregulares, :procedencia
       )
   end
 end
